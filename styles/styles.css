@@ -61,7 +61,8 @@ a:active {
 	}  
 
 img {
-	padding-left: 20px;
+	max-height: 80%;
+	max-width: 80%;
 	}
 
 .left {
@@ -79,88 +80,30 @@ img {
 	background-image: url(https://pasteltest.files.wordpress.com/2015/03/paper-strip2.jpg);
 	min-height: 100%;
 	position: relative;
-	margin-bottom: -50px;
-	overflow: auto; 
+	margin-bottom: -100px;
+	overflow: hidden; 
 	}
 
 #content {
 	 /*border: 1px solid blue; */
 	margin: auto;
-	padding-top: 100px;
-	width: 1200px;
- 
-	} 
-
-article {
-	background-color: #fff;
-	border: solid 2px #ddd; 
-	padding: 1em; 
-	width: 60%;
-	}	
-
-aside {
-	border: solid 2px #ddd; 
-	background-color: white;
-	margin-bottom: 25px;
-	overflow: auto; 
-	padding-left: 1em;
-	width: 29%;
-	}
-
-aside #flickrNav {
-	padding-left: 22%;
-	margin-bottom: 25px;
-	}
-
-/* styles for mailchimp */
-#mc_embed_signup {
-	background:#fff; 
-	clear:left; 
-	font:14px 
-	width:220px;}
-
-/* styles for photo gallery */
-#images { 
-	height: 180px; 
-	width: 240px; 
-	padding-bottom:5px;
-	overflow: hidden;
-	}
-
-#images img { 
-	border: none;
-	padding: 0;
+	padding-top: 50px;
+	width: 75%;
 	} 
 
 /* Header styles ------------------------------------ */
 
 header {
 	background-color: #000;
-	height: 120px;
-	padding: 0 25px;
+	height: 100px;
+	padding-left: 25px;
+	padding-top: 25px;
 	}
 
 #header-content {
 	width: 1200px;
 	margin: auto;
 	}
-
-header img {
-	float: left; 
-	margin-top: 25px;
-	}
-
-header ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	}
-
-header a {
-	display: inline;
-	float: right;
-	padding: 80px 0 0 15px;
-	} 
 
 /* Footer styles ------------------------------------ */
 
@@ -169,10 +112,9 @@ footer {
 	border-top: solid 2px #ddd; 
 	bottom: 0;
 	font-size: 12px;
-    height: 50px;
+    height: 100px;
     padding-left: 25px;
     position: relative;
-    width: 100%;
 	}
 
 #footer-content {
