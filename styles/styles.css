@@ -60,7 +60,7 @@ a:active {
 	text-decoration: none;
 	}  
 
-img {
+#content img {
 	max-height: 100%;
 	max-width: 100%;
 	}
@@ -77,18 +77,19 @@ img {
 
 #container {
 	/* border: 1px solid red; */
-	background-image: url(http://laneh.github.io/pastel-test/images/paper-strip.jpg);
-	min-height: 100%;
-	position: relative;
+	background: url(http://laneh.github.io/pastel-test/images/paper-strip.jpg);
 	margin-bottom: -100px;
-	overflow: hidden; 
+	min-height: 100%;
+	overflow: auto;
+	position: relative;
+	width: 100%;
 	}
 
 #content {
 	 /*border: 1px solid blue; */
 	margin: auto;
-	padding-top: 50px;
-	width: 75%;
+	padding-top: 10px;
+	width: 80%;
 	} 
 
 /* Header styles ------------------------------------ */
@@ -101,8 +102,6 @@ header {
 	}
 
 #header-content {
-	width: 1200px;
-	margin: auto;
 	}
 
 /* Footer styles ------------------------------------ */
@@ -118,8 +117,6 @@ footer {
 	}
 
 #footer-content {
-	width: 1200px;
-	margin: auto;
 	}
 
 footer p {
@@ -127,7 +124,7 @@ footer p {
 	}
 
 .clearfooter {
-	height: 50px;
+	height: 100px;
 	clear: both;
 	}
 
